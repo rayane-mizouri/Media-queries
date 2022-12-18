@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    margin: 0;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    
+}
+
+/*-------------------------Musée 1---------------------- */
+@media screen and (max-width: 375px)
+{
+.middle{
+    font-size: calc(14px + 2.2vw);
+    }
+  }
+.middle{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:450px;
+    position:relative;
+    height:0;
+   }
+   .map-responsive iframe {
+    left:684px;
+    top:10px;
+    height:373px;
+    width:50%;
+    position:absolute;
+   }
+.url{
+    background-color:grey;
+}
+.left-text{
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.right-text {
+    width: 35%;
+    padding-left: 50%;
+}
+
+
+/*------------------------------------------------Musée 2-----------------------------------------------*/
+.two-left {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    padding-bottom: 4%;
+}
+
+.two-left h1{
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+.two-right {
+    border: 5px solid brown;
+    width: 500px;
+    height: auto;
+    margin-right: 100px
+}
+/*------------------------------------------------Musée 3-----------------------------------------------*/
+.image-background{
+    background-image:url("imgMus/centre-de-la-vielle-charité.png");
+    background-size: cover;
+    background-position: center;
+} 
+.move-left{
+    padding-left: 3%;
+    color: white;
+} 
+
+/*------------------------------------------------Musée 4-----------------------------------------------*/
+
+
+.four-left {
+    border: 5px solid chocolate ;
+    width: 350px;
+    height: auto;
+    margin-left: 100px;
+    
+}
+
+.four-right {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+
+}
+.four-right h1{
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.mail
+{
+    padding-bottom: 100px;
+}
+/*------------------------------------------------Musée 5-----------------------------------------------*/
+.size{
+    height: 20%;
+    width: 100%;
+}
+.title-five{
+    font-size:22px;
+}
+
+.left5{
+    margin-top: 45px;
+    width: 100%;
+    margin-left: 100px;
+}
+.right5{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left:100px;
+    margin-right: 100px;
+    width: 500px;
+}
+.title-five
+{
+    display: flex;
+    flex-direction: column;
+}
+.reservation
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 300;
+    width: 500px;
+}
+.bas_de_page
+{
+    display: flex;
+}
+.url ul li a{
+    color: black;
+    text-decoration: none;
+}
+.url ul li
+{
+    list-style: none;
+}
+/*------------------------------------------------Les autres musée-----------------------------------------------*/
+
+.milieu6{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.map-responsive2 {
+    overflow:hidden;
+    padding-bottom:450px;
+    position:relative;
+    height:0;
+    padding-left: 335px;
+   }
+   .map-responsive2 iframe {
+    top:10px;
+    height:373px;
+    width:50%;
+    position:absolute;
+   }
+/*------------------------------------------------autres----------------------------------------------*/
+
+   footer {
+    background-color: #214761;
+    color: #fff;
+  }
+  
+  .footer .footer1 a {
+    color: black;
+  }
+  
+  nav a {
+    color: black;
+  }
+ 
+  .navbar nav{
+    background-color:#214761;
+  }
+  
+  .sous {
+    background-color: #214761;
+  }
+  
+  .navbar .nav-left #logo {
+    width: 25%;
+    margin-top: -349px;
+    margin-left: 20px;
+    position: absolute;
+  }
+  
+  nav a:hover {
+    color: grey;
+    transition: 0.8s;
+  }
+
+  main {
+    height: 100%;
+    width: 100%;
+  }
+/*-----------------------------------------Responsive----------------------------------*/
+@media screen and (min-width: 1366px)
+  {
+nav ul{
+      width: 50%;
+      padding-left: 25%;
+      }
+    }  
+nav ul {
+    align-items: center;
+
+}
+@media screen and (max-width: 1350px)
+{
+.nav-right{
+    font-size: calc(1px + 1.2vw);
+    }
+  }
+  @media screen and (max-width: 1157px)
+{
+.nav-right{
+    font-size: calc(8px + 2vw);
+    }
+  }
+  @media screen and (min-width: 1400px)
+  {
+  .nav-right{
+      font-size: calc(5px + 3.3vw);
+      }
+    }
+    @media screen and (min-width: 1365px)
+    {
+    .nav-right{
+        font-size: 16px;
+        }
+      }
+@media screen and (max-width: 375px)
+{
+.map-responsive2{
+padding-left: 42px;
+width:500px ;
+}
+.left5{
+    width: 100%;
+    margin-left: 10px;
+    font-size : 13px;
+}
+.right5{
+    margin-top: 45px;
+    font-weight: 300;
+    margin-left:20px;
+    width: 100px;
+
+}
+.title-five{
+    font-size: 17px;
+}
+.reservation{
+    font-size: 9px;
+}
+.four-left {
+    margin-top:120px;
+    border: 5px solid chocolate ;
+    margin-left: 10px;
+    height: 120px;
+    width: 200px;
+}
+.four-right {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+
+}
+.four-right h1{
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+.image-background{
+    background-image:url("imgMus/centre-de-la-vielle-charité.png");
+    background-size: cover;
+    background-position: center;
+} 
+.move-left{
+    padding-left: 3%;
+    color: white;
+}
+
+.two-left {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    padding-bottom: 4%;
+}
+.two-left h1{
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.two-right {
+    margin-top: 350px;
+    border: 5px solid brown;
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    margin-left: -20px;
+}
+.map-responsive img{
+padding-left: 130px;
+width:225px ;
+height: 383px;
+}
+.map-responsive iframe {
+    left:1px;
+    top:0px;
+    height:383px;
+    width:150px;
+   }
+}
+@media screen and (width: 750px)
+{
+    .map-responsive2{
+    padding-left: 130px;
+    width:800px ;
+    }
+    .left5{
+        width: 300px;
+        margin-left: 10px;
+        font-size : 15px;
+    }
+    .right5{
+        margin-top: 70px;
+        font-weight: 300;
+        padding-left: 20px;
+        width: 350px;
+    
+    }
+    .title-five{
+        font-size: 20px;
+    }
+    .reservation{
+        font-size: 15px;
+    }
+    .four-left {
+        margin-top:30px;
+        border: 5px solid chocolate ;
+        margin-left: 10px;
+        height: 120px;
+        width: 200px;
+    }
+    .four-right {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+    
+    }
+    .four-right h1{
+        font-size: 17px;
+        font-weight: 300;
+        margin-left: 15px;
+    }
+    .image-background{
+        background-image:url("imgMus/centre-de-la-vielle-charité.png");
+        background-size: cover;
+        background-position: center;
+    } 
+    .move-left{
+        padding-left: 3%;
+        color: white;
+    }
+    
+    .two-left {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+        padding-bottom: 4%;
+    }
+    
+    .two-left h1{
+        font-size: 17px;
+        font-weight: 300;
+        margin-left: 100px;
+        margin-right: 40px;
+    }
+    
+    .two-right {
+        margin-top: 30px;
+        border: 5px solid brown;
+        width: 200px;
+        height: 200px;
+        margin-right: 100px;
+        margin-left: 20px;
+    }
+    .map-responsive img{
+    padding-left: 330px;
+    width:400px ;
+    height: 383px;
+    }
+    .map-responsive iframe {
+        left:1px;
+        top:0px;
+        height:383px;
+        width:350px;
+       }
+    .middle{
+        font-size: calc(14px + 2.2vw);
+    }
+}
