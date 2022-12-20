@@ -1,0 +1,113 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F6F4F0;
+}
+
+.pageHeader{
+    z-index: 0;
+}
+.pageHeader img {
+    z-index: 0;
+    width: 100%;
+    height: 300px;
+    filter:brightness(0.7);
+}
+
+.pageContent {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes appear {
+    from {
+        filter: opacity(0);
+    }
+
+    to {
+        filter: opacity(1);
+    }
+}
+
+.pageContent {
+    animation: appear ease-in-out 1.5s;
+    margin-top: -5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pageContent img {
+    width: 100%;
+    height: 200px;
+}
+
+.pageContent p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.randoList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.randoList .rando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.randoList .rando p {
+   padding: 0;
+   text-align: justify;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+nav a {
+    color: #fff;
+  }
+  
+  .navbar nav{
+    background-color: #097969;
+  }
+  
+  .sous {
+    background-color: #097969;
+  }
+  
+  nav a:hover {
+    color: grey;
+    transition: 0.8s;
+  }
+  
+  nav ul {
+      width: 100%;
+  }
+  
+  footer {
+    background-color: #097969;
+    color: #fff;
+  }
+   
+  .footer .footer1 a {
+    color: #fff;
+  }
+
+  .navbar .nav-left {
+    background-image: url(imgGen/bg.png);
+}

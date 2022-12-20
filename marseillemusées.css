@@ -187,7 +187,9 @@ body {
     position:absolute;
    }
 /*------------------------------------------------autres----------------------------------------------*/
-
+.navbar .nav-left {
+    background-image: url(imgGen/bg.png);
+}
    footer {
     background-color: #214761;
     color: #fff;
@@ -225,6 +227,9 @@ body {
     height: 100%;
     width: 100%;
   }
+  .navbar .menu-items {
+    background-color: #214761;
+}
 /*-----------------------------------------Responsive----------------------------------*/
 @media screen and (min-width: 1366px)
   {

@@ -1,0 +1,323 @@
+.navbar .nav-left {
+  background-image: url(https://i.pinimg.com/originals/f6/6b/6c/f66b6c017e0d44225d4d32c1105d8146.png);
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.block1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.block1 h5 {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: PaleGoldenRod;
+  outline: none;
+  text-align: center;
+}
+
+.block1 h5:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 1px;
+}
+
+.block1 p {
+  font-size: 1.2em;
+  line-height: 150%;
+  text-align: center;
+  color: MintCream;
+  letter-spacing: .5px;
+}
+
+/*///////////////////////////////////image protis/////////////////////////////////*/
+
+.block4 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("https://www.meisterdrucke.fr/kunstwerke/1200w/Joanny_Rave_-_Foundation_of_Marseille_in_600_BC_-_Les_Noces_de_Protis_et_Gyptis_%28oil_on_canvas_-_%28MeisterDrucke-1035127%29.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block4 .pagination {
+  position: relative;
+  height: 80px;
+  padding-left: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  border-radius: 2px;
+}
+.block4 .pagination li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 37px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.block4 .pagination li a {
+  position: relative;
+  color: #fff;
+  font-weight: 200;
+}
+
+.block4 .pagination li a:hover,
+.block4 .pagination li.active a {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/*///////////////////////////////////BOX 1/////////////////////////////////*/
+
+.block2 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*///////////////////////////////*/
+
+.block2 h2 {
+  font-size: 17px;
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: PaleGoldenRod;
+  outline: none;
+  text-align: justify;
+  padding-left: 24%;
+  padding-bottom: 5%;
+}
+
+.struct-three {
+  width: 100%;
+  padding-top: 5%;
+}
+
+/*///////////////////////////////////BOX 2/////////////////////////////////*/
+
+.block3 {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 300px;
+  padding-top: 8%;
+  background-color: rgb(16, 84, 145); 
+}
+
+.struct-two {
+  width: 100%;
+  height: 600px;
+  margin-top: -1%;
+  display: flex;
+}
+
+/*//////////////////////////////////////////deuxieme page///////////////////////*/
+
+.block5 {
+position: relative;
+height: 100vh;
+width: 100%;
+background: url("https://www.marseille.fr/sites/default/files/styles/1200x630/public/pages/2015/09/blason.jpg?itok=tucx4CkG");
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.block5 .pagination {
+position: relative;
+height: 80px;
+padding-left: 40px;
+background: rgba(255, 255, 255, 0.05);
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+display: flex;
+align-items: center;
+backdrop-filter: blur(3px);
+border-radius: 2px;
+}
+.block5 .pagination li {
+list-style-type: none;
+display: inline-block;
+padding-right: 37px;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.block5 .pagination li a {
+position: relative;
+color: #fff;
+font-weight: 200;
+}
+
+.block5 .pagination li a:hover,
+.block5 .pagination li.active a {
+background: rgba(255, 255, 255, 0.2);
+}
+
+a {
+color: palegoldenrod;
+}
+
+/*//////////////////////////////////////////troisieme page///////////////////////*/
+
+.block6 {
+position: relative;
+height: 100vh;
+width: 100%;
+background: url("https://www.publicsenat.fr/sites/default/files/styles/pse_accueil_entete/public/thumbnails/image/senat_hemicycle_ecran_026.jpg?itok=qxCJSW24");
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.block6 .pagination {
+position: relative;
+height: 80px;
+padding-left: 40px;
+background: rgba(255, 255, 255, 0.05);
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+display: flex;
+align-items: center;
+backdrop-filter: blur(3px);
+border-radius: 2px;
+}
+.block6 .pagination li {
+list-style-type: none;
+display: inline-block;
+padding-right: 37px;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.block6 .pagination li a {
+position: relative;
+color: #fff;
+font-weight: 200;
+}
+
+.block6 .pagination li a:hover,
+.block6 .pagination li.active a {
+background: rgba(255, 255, 255, 0.2);
+}
+
+pas-footer {
+margin-bottom: 5%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+background-color: palegoldenrod;
+background-size: 582px;
+background-repeat: no-repeat;
+background-image: url("imgGen/Armoiries_de_Marseille (1).png");
+background-position: 50%;
+color: #fff;
+}
+
+nav a {
+color: black;
+}
+
+footer a {
+color: black;
+}
+
+h4 {
+color: black;
+}
+
+pas-footer a {
+color: black;
+}
+
+footer {
+background-color: palegoldenrod;
+color: #fff;
+}
+
+.footer .footer1 a {
+color: black;
+}
+
+nav a {
+color: black;
+}
+
+.navbar nav{
+background-color: palegoldenrod;
+}
+
+.sous {
+background-color: palegoldenrod;
+}
+
+nav a:hover {
+color: grey;
+transition: 0.8s;
+}
+
+.navbar .menu-items {
+  background-color: palegoldenrod;
+}
+
+@media all and (max-width: 360px) {
+  main{
+    height: 3500px;
+  }
+
+  .block1 h5 {
+    font-size: 30px;
+    }
+}
+@media all and (min-width: 361px) and (max-width: 760px) {
+  main{
+    height: 2500px;
+  }
+
+  .block1 h5 {
+  font-size: 57px;
+}
+}
+
+.nav-container .hamburger-lines .line {
+  background: black;
+}
+
+.nav-container a {
+  color: black;
+}
+
+.nav-container h1 {
+  color: black;
+}
+
+footer h2 {
+  color: black;
+}
